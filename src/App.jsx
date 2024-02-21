@@ -3,11 +3,9 @@ import Navbar from './components/Navbar'
 import SignUpForm from './components/SignUpForm'
 import SignInForm from './components/SignInForm'
 import Profile from './components/Profile'
-import NotFound from './components/NotFound'
+
 import './App.css';
-import axios from 'axios';
-import { useCookies } from 'react-cookie';
-import { useEffect } from 'react';
+
 
 function App() {
 
