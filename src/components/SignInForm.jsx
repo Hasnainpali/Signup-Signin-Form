@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import useData from '../hooks/useData'
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-// import { useCookies } from 'react-cookie';
+
 
 
 export default function SignInForm() {
@@ -44,15 +44,7 @@ export default function SignInForm() {
 
 
 
-    //   const found = users.find((items) => { return items.userName == logUName && items.Password == logPwd })
-
-    //   if (found) {
-    //     navigate("/profile");
-    //     setLoginUser(found.userName);
-    //     setLogin(true);
-    //   } else {
-    //     alert("Invalid User Name Or Password")
-    //   }
+  
   }
 
 

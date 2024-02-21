@@ -9,25 +9,10 @@ import './App.css';
 
 function App() {
 
-    const navigate = useNavigate();
-    // const [cookie, setcookie, removecookie] = useCookies()
-
-    // function signin() {
-    //     setcookie("name", prompt("Enter your name"))
-    // }
-    // useEffect(() => {
-    //     if (cookie) {
-    //         console.log(cookie.name)
-    //     }
-    //     else {
-    //         console.log("User not found")
-    //     }
-    // }, [])
-
+  
     return (
         <>
             <Navbar />
-            {/* <button onClick={signin}>Signin</button> */}
 
             <Routes>
 
